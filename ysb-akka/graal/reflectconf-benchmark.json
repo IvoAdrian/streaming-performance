@@ -1,0 +1,38 @@
+[
+  {
+    "name": "akka.dispatch.SingleConsumerOnlyUnboundedMailbox",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  },
+  {
+    "name": "redis.actors.RedisReplyDecoder",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  },
+  {
+    "name": "akka.kafka.KafkaConsumerActor",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "fields" : [
+      { "name" : "context", "allowWrite" : true },
+      { "name" : "self", "allowWrite" : true }
+    ]
+  },
+  {
+    "name": "org.apache.kafka.common.serialization.StringDeserializer",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  },
+  {
+    "name": "akka.kafka.KafkaConsumerActor",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  },
+  {
+    "name": "akka.dispatch.UnboundedControlAwareMailbox",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  }
+
+]
+
