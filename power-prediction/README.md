@@ -10,8 +10,10 @@ After that, the Native Image of the program was built by `sbt graalvm-native-ima
 
 The `whole-benchmark-evaluation.sh` is the main script, which calls the other scripts. It runs the application for more than 100 seconds/time windows and prints out the latency, CPU usage and memory usage every second into txt files.
 
-It needs two parameters to run:
+It needs two arguments to run:
 1. the execution platform (`jvm`, `graalvm` or `native`)
 2. the throughput
+
+The throughput is used as an argument for the script for the generator program.
 
 To reproduce the experiments, you have to adapt the paths in the scripts to your local configuration.
