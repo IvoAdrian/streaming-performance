@@ -7,9 +7,9 @@ Furthermore it contains the spreadsheets with the results of the runs of the exp
 There are the three following experiments:
 
 * the [Yahoo Streaming Benchmarks](ysb)
-* the Power Prediction Application
-* the Computation Application
+* the [Power Prediction Application](power-prediction)
+* the [Computation Application](computation)
 
-The folders with their respective names can be seen above. Each experiment was realized in an Akka Streams and  a Project Reactor variant - each has their respective subfolder. In these subfolders the instructions of how to execute the experiment can be found.
+Each experiment was realized in an Akka Streams and  a Project Reactor variant - each has their respective subfolder. In these subfolders the instructions of how to execute the experiment can be found.
 
 Each variant was executed on the HotSpot JVM, GraalVM and GraalVM Native Image.
