@@ -17,7 +17,7 @@ graalVMNativeImageOptions ++= Seq(
   "-H:IncludeResources=.*\\.properties",
   "--initialize-at-build-time",
   "--no-fallback",
-  "--allow-incomplete-classpath" ,
+  "--allow-incomplete-classpath",
   "--report-unsupported-elements-at-runtime",
   "--verbose",
   "-H:+ReportExceptionStackTraces"
