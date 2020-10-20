@@ -14,6 +14,6 @@ It needs two arguments to run:
 1. the execution platform (`jvm`, `graalvm` or `native`)
 2. the throughput
 
-The throughput is used as an argument for the script for the generator program.
+The throughput is used as an argument for the script for the generator application, which can be found in [generator/bin](generator/bin).
 
 To reproduce the experiments, you have to adapt the paths in the scripts to your local configuration.
