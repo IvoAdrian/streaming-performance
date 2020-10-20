@@ -17,5 +17,5 @@ It needs two parameters to run:
 
 The original YSB generator was used. To use it you have to clone the original [YSB directory](https://github.com/yahoo/streaming-benchmarks). After that, you replace the `stream-bench.sh` file with the adapted file [generator/stream-bench.sh](generator/stream-bench.sh).
 
-To reproduce the experiments, you have to adapt the paths in the scripts to your local configuration.
+To reproduce the experiments, you have to adapt all paths in the scripts to your local configuration.
 
