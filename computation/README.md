@@ -5,5 +5,7 @@ The whole-benchmark-evaluation.sh is the main script, which calls the other scri
 
 It needs two parameters to run:
 1. the execution platform (jvm, graalvm or native)
-2. the throughput/event generation rate
+2. the throughput
+
+The run-with-agent.sh script was a script used to set up the possibility to use Native Image.
 
