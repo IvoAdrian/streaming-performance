@@ -20,7 +20,6 @@ enablePlugins(GraalVMNativeImagePlugin)
 graalVMNativeImageOptions ++= Seq(
   "-H:+TraceClassInitialization",
   "-H:IncludeResources=.*\\.properties",
-  //s"-H:ReflectionConfigurationFiles=${baseDirectory.value}/graal/reflectconf-jul.json,${baseDirectory.value}/graal/reflectconf-benchmark.json",
   "--initialize-at-build-time",
   "--initialize-at-run-time=" +
     "akka.protobuf.DescriptorProtos," +
