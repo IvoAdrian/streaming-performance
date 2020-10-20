@@ -3,7 +3,7 @@ They can be found in the subfolders: [akka/bin](akka/bin) and [reactor/bin](reac
 
 The `run-with-agent.sh` script was used to set up the configuration for Native Image.
 
-The `whole-benchmark-evaluation.sh` is the main script, which calls the other scripts. It runs the application for more than 100 seconds/time windows and prints out the latency, CPU usage and memory usage every second into .txt files. These .txt files will be created in the Benchmark_Results directory, which will be created parallel to the bin directory.
+The `whole-benchmark-evaluation.sh` is the main script, which calls the other scripts. It runs the application for more than 100 seconds/time windows and prints out the latency, CPU usage and memory usage every second into .txt files. These .txt files will be created in the `Benchmark_Results` directory, which will be created parallel to the `bin` directory.
 
 It needs one parameter to run:
 * the execution platform (`jvm`, `graalvm` or `native`)
