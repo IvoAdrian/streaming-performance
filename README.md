@@ -16,5 +16,5 @@ Each experiment was implemented in an Akka Streams and a Project Reactor variant
 
 Each variant was executed on the HotSpot JVM, GraalVM and GraalVM Native Image.
 
-For each *experiment*, for each *framework* the source code can be found in *experiment*`/`*framework*`/src/main/scala/`.
+For each combination of *experiment* and *framework*, the source code can be found in *experiment*`/`*framework*`/src/main/scala/`.
 
