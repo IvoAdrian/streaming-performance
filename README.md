@@ -1,12 +1,12 @@
-# Stream Processing Performance Experiments - JVM and GraalVM vs Native Image
+# Stream Processing Performance Experiments - Bytecode vs Native Execution
 
-This repository consists of material for the bachelor's thesis "Measuring the Performance Impact of Bytecode Execution in Multi-Core Stream Processing Environments".
+This repository contains the source code of the applications for the experiments of the bachelor's thesis "Measuring the Performance Impact of Bytecode Execution in Multi-Core Stream Processing Environments".
 
-The source code of the experiments from the mentioned thesis is laid out. The spreadsheets with the data from the runs of the experiments are included, too.
+Furthermore it contains the spreadsheets with the results of the runs of the experiments.
 
 There are the three following experiments:
 
-* the Yahoo Streaming Benchmarks
+* the [Yahoo Streaming Benchmarks](ysb)
 * the Power Prediction Application
 * the Computation Application
 
