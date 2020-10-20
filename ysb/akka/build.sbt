@@ -32,7 +32,6 @@ graalVMNativeImageOptions ++= Seq(
     "com.typesafe.config.impl.ConfigImpl$SystemPropertiesHolder",
   "--no-fallback",
   "--allow-incomplete-classpath"
-  //2020-05-18 Knabe
   , "--report-unsupported-elements-at-runtime"
   , "--verbose"
   , "-H:+ReportExceptionStackTraces"
