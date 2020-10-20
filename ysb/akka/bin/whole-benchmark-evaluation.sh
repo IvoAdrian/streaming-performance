@@ -1,7 +1,7 @@
 #!/bin/bash
 # $1 = The platform (jvm or native)
-# $2 = The input rate (e.g. 1000, 8000)
-# a simple script for the evaluation of the Akka Benchmark for a given input rate in the stream-bench.sh file
+# $2 = The event generation rate (e.g. 1000, 8000)
+# a simple script for the evaluation of the Akka Benchmark for a given event generation rate in the stream-bench.sh file
 set -o errexit -o nounset
 
 export PLATFORM=$1
@@ -59,14 +59,11 @@ sleep 3
 
 sh ~/github/ysb-eval-util/bin/run-evaluation-latency.sh > Benchmark_Results/$PLATFORM$LOAD-latencies.txt
 
-# In Calc Datei importieren
-
 grep ivo-k Benchmark_Results/top-results.txt > Benchmark_Results/$PLATFORM$LOAD-CPUMemory.txt
 
 sh bin/extract-CPU+Memory.sh Benchmark_Results/$PLATFORM$LOAD-CPUMemory.txt 
 
-# In Calc Datei importieren
-echo Schlafen 10 sec...
+echo sleep 10 sec...
 sleep 10
 
 pushd $ysbDir

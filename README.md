@@ -10,6 +10,8 @@ There are the three following experiments:
 * the [Power Prediction Application](power-prediction)
 * the [Computation Application](computation)
 
-Each experiment was realized in an Akka Streams and  a Project Reactor variant - each has their respective subfolder. In these subfolders the instructions of how to execute the experiment can be found.
+In these experiment folders, the instructions of how to carry out the experiment can be found.
+
+Each experiment was implemented in an Akka Streams and a Project Reactor variant.
 
 Each variant was executed on the HotSpot JVM, GraalVM and GraalVM Native Image.
