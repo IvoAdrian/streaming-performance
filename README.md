@@ -2,7 +2,7 @@
 
 This repository contains the source code of the applications for the experiments of the bachelor's thesis "Measuring the Performance Impact of Bytecode Execution in Multi-Core Stream Processing Environments".
 
-Furthermore it contains the spreadsheets with the results of the runs of the experiments.
+Furthermore it contains the spreadsheets with the results of the runs of the experiments in a Libre-Office-Calc format.
 
 There are the three following experiments:
 
