@@ -1,5 +1,7 @@
 To run the experiments shells scripts have been created. 
-They can be found in the subfolders: [akka/bin](akka/bin) and [reactor/bin](reactor/bin) .
+They can be found in the subfolders: [akka/bin](akka/bin) and [reactor/bin](reactor/bin).
+
+The programs have been compiled with `sbt compile` (for GraalVM and HotSpot JVM) and the Native Image of the program was built by `sbt graalvm-native-image:packageBin`.
 
 The `run-with-agent.sh` script was used to set up the configuration for Native Image.
 
