@@ -15,19 +15,10 @@ enablePlugins(GraalVMNativeImagePlugin)
 graalVMNativeImageOptions ++= Seq(
   "-H:+TraceClassInitialization",
   "-H:IncludeResources=.*\\.properties",
-  //s"-H:ReflectionConfigurationFiles=${baseDirectory.value}/graal/reflectconf-jul.json,${baseDirectory.value}/graal/netty-reflection-config.json",
-  //"--initialize-at-run-time=" +
-  //  "io.netty.util.AbstractReferenceCounted," +
-  //  "io.netty.handler.ssl.util.ThreadLocalInsecureRandom",
   "--initialize-at-build-time",
   "--no-fallback",
-  "--allow-incomplete-classpath"
-  //2020-05-18 Knabe
-  ,
+  "--allow-incomplete-classpath",
   "--report-unsupported-elements-at-runtime",
   "--verbose",
   "-H:+ReportExceptionStackTraces"
-  //"-Dio.netty.noUnsafe=true",
-  //"-Dreactor.netty.native=false"
-  //"de.knabe.ReactorPowerApp" //main class
 )
